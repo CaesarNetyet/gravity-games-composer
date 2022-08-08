@@ -1,0 +1,28 @@
+
+.tarjeta {
+    width: 200px;
+}
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+.overflow-hidden {
+    max-height: 3em;
+}
+.contenme {
+    background: rgb(45,45,45);
+background: linear-gradient(97deg, rgba(45,45,45,1) 0%, rgba(72,72,72,1) 50%, rgba(91,91,91,1) 100%);
+}
+
+
+@media (max-width: 990px){
+    
+    .sesiones > .btn {
+        margin-top: 0.5rem;
+        width: 100% !important;; 
+    }
+    .tarjeta {
+        width: 250px;
+    }
+
+}
